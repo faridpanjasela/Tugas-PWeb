@@ -28,7 +28,6 @@ nav{
     color: #FFF;
     text-align:auto;
     position: fixed;
-    border-bottom: 1px solid #b1b;
     line-height: 60px;
     width: 100%;
     transition: background-color 0.5s ease;
@@ -55,6 +54,7 @@ nav .menu {
     float: right;
     height: 60px;
     max-width: 600px;
+    color: #FFF;
 }
 
 nav .menu ul{

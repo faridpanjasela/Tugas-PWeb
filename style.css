@@ -1,5 +1,5 @@
-:root{
-    --pr-color: #0ba531;
+:root {
+  --pr-color: #0ba531;
 }
 
 body {
@@ -7,120 +7,187 @@ body {
   background-color: #f3fff4;
 }
 .navbar {
-    z-index: 3;
+  z-index: 3;
+  color: #fff;
+  transition: background-color 0.5s ease;
 }
 
 .navbar-brand {
   font-weight: 700;
   font-size: 20px;
 }
-.nav-link{
-    font-size: 16px;
+.nav-link {
+  font-size: 16px;
+  color: #ffffff;
+  font-size: 18px;
 }
 .nav-link.active {
   font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
 }
 
-.button-primary{
-    width: 133px;
-    height: 40px;
-    background-color: #ffffff;
-    color: var(--pr-color);
-    border: none;
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: #ffffff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 18px;
 }
+.nav-content ul li a:hover {
+  color: #ffffff;
+}
+
+/* Nav Hover */
+.navbar:hover {
+  z-index: 3;
+}
+
+.navbar-brand:hover {
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link:hover {
+  font-size: 16px;
+  color: var(--pr-color);
+  font-size: 18px;
+}
+.nav-link.active:hover {
+  font-weight: 700;
+  color: var(--pr-color);
+  font-size: 18px;
+}
+
+.button-primary:hover {
+  width: 133px;
+  height: 40px;
+  background-color: var(--pr-color);
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+}
+/* end hover */
 
 /* Hero */
-#Hero{
-    background-image:linear-gradient(160deg, var(--pr-color), rgb(0, 0, 0));
-    height: 100vh;
-    width: 100%;
+#Hero {
+  background-image: linear-gradient(160deg, #04337a, rgb(156, 7, 76));
+  height: 100vh;
+  width: 100%;
 }
-.img-hero{
-    height: 80%;
+.img-hero {
+  height: 80%;
 }
-.hero-tagline h1{
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 60px;
+.hero-tagline h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
 }
-.hero-tagline p{
-    color: #ffffff;
-    -font-weight: 700;
-    font-size: 16px;
-    -line-height: 71px;
-    margin-bottom: 60px;
-    margin-top: 20px;
-    line-height: 30px;
-    width: 85%;
+.hero-tagline p {
+  color: #ffffff;
+  -font-weight: 700;
+  font-size: 16px;
+  -line-height: 71px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
 }
-.button-lg-primary{
-    width: 180px;
-    height: 50px;
-    background-color: #ffffff;
-    color: var(--pr-color);
-    border: none;
-    font-size: 20px;
-    font-weight: 100;
+.button-lg-primary {
+  width: 180px;
+  height: 50px;
+  background-color: #ffffff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 /* Layanan */
 
-#Layanan{
-    padding: 80px 0;
+#Layanan {
+  padding: 80px 0;
 }
-h2{
-    font-size: 48px;
-    font-weight: 500;
-    color: var(--pr-color);
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #7a043f;
 }
-.sub-title{
-    font-size: 18px;
-    color: #000;
+.sub-title {
+  font-size: 18px;
+  color: #000;
 }
-.card-layanan{
-    width: 100%;
-    height: 290px;
-    border-radius: 5px;
-    background-color: #58da53;
-    padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,005);
+.card-layanan {
+  width: 100%;
+  height: 290px;
+  border-radius: 5px;
+  background-color: #58da53;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 005);
 }
-.circle-icon{
-    width: 70px;
-    height: 70px;
-    background-color: var(--pr-color);
-    border-radius: 50%;
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
 }
 .card-layanan h3 {
-    color: green;
-    font-size: 26px;
+  color: green;
+  font-size: 26px;
 }
 .card-layanan p {
-    color: green;
-    font-size: 16px;
+  color: green;
+  font-size: 16px;
 }
 
 /* Hover */
-.card-layanan:hover{
-    width: 100%;
-    height: 290px;
-    border-radius: 5px;
-    background-image:linear-gradient(160deg, var(--pr-color), rgb(12, 90, 2));
-    padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,005);
+.card-layanan:hover {
+  width: 100%;
+  height: 290px;
+  border-radius: 5px;
+  background-image: linear-gradient(160deg, var(--pr-color), rgb(12, 90, 2));
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 005);
 }
-.circle-icon:hover{
-    width: 70px;
-    height: 70px;
-    background-color: #ffffff;
-    border-radius: 50%;
+.circle-icon:hover {
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 .card-layanan:hover h3 {
-    color: #ffffff;
-    font-size: 24px;
+  color: #ffffff;
+  font-size: 24px;
 }
 .card-layanan:hover p {
-    color: #ffffff;
-    font-size: 14px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* search */
+#Search {
+  background-image: url(/Asset/img/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Search h2 {
+  font-size: 48px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+#Search p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 52px;
+  letter-spacing: 0em;
 }
