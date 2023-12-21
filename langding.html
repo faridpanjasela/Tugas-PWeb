@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JogjaWisata</title>
+    <link rel="stylesheet" href="cssslide.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -11,7 +14,7 @@
     crossorigin="anonymous"
   />
     <link rel="stylesheet" href="landing.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
      <!-- Navbar -->
      <nav
@@ -52,10 +56,10 @@
        <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav mx-auto">
            <li class="nav-item mx-2">
-            <a class="nav-link" href="index.html">Layanan</a>
+            <a class="nav-link active" href="index.html">Home</a>
            </li>
            <li class="nav-item mx-2">
-             <a class="nav-link" href="index.html">Layanan</a>
+             <a class="nav-link" href="index.html">Rekomendasi</a>
            </li>
            <li class="nav-item mx-2">
              <a class="nav-link" href="#">Portofolio</a>
@@ -82,7 +86,9 @@
             <span class="fw-bold">Jogja Wisata</span> hadir untuk membantu
             kamu dalam menemukan tempat liburan terbaik sesuai keinginanmu
           </p>
-          <button class="button-lg-primary">Selengkapnya</button>
+          <a class="btn btn-light" href="#Layanan" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+            Show More  <i class="bi bi-arrow-right-circle-fill"></i
+           ></a>
         </div>
       </div>
       <img
@@ -92,109 +98,209 @@
       />
     </div>
   </section>
-  <!-- End Hero -->
+<!-- End Hero -->
+
+<!-- About Us -->
         <section id="aboutus">
             <div class="layar-dalam">
-                <h3>About Us</h3>
+                <h2>About Us</h2>
                 <p class="ringkasan">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit.
+                    Apa sih JogjaWisata itu
                 </p>
                 <div class="konten-isi">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam enim at dignissimos molestias voluptatum sed sint rem aut dolores quos?
+                        <span class="fw-bold fst-italic">JogjaWisata</span> Adalah sebuah Website yang menawarkan fasilitas berupa rekomendasi bagi yang hendak berwisata di Jogjakarta, Selain itu juga terdapat beberapa Fitur-fitur yang dapat memudahkan bagi para Wisatawan yang hendak berkunjung
                     </p>
                     
                 </div>
             </div>
         </section>
+<!-- Layanan Kami -->
         <section class="abuabu"  id="support">
-            <div class="layar-dalam support">
-                <div>
-                    <img src="assetlanding/matahari.png"/>
-                    <h6>In Every Condition</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima iste sequi quaerat molestias rem commodi!   
-                    </p>
-                </div>
-                <div>
-                    <img src="assetlanding/tas.png"/>
-                    <h6>Profesional Team</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis soluta odit quas vitae atque!   
-                    </p>
-                </div>
-                <div>
-                    <img src="assetlanding/kompas.png"/>
-                    <h6>Expert Hikers</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis soluta odit quas vitae atque!   
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="gallery">
-            <div><img src="assetlanding/foto1.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto2.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto3.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto4.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto5.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto6.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto7.jpg"/>
-            </div>
-            <div><img src="assetlanding/foto8.jpg"/>
-            </div>
-        </section>
-        <section class="quote">
-            <div class="layar-dalam">
-                <p>Jogja terbuat dari rindu, pulang dan angkringan.</p>
-            </div>
-        </section>
-        <section id="team">
-            <div class="layar-dalam">
-                <h3>Our Team</h3>
-                <p class="ringkasan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, ipsam.    
+            <div class="col-12 text-center">
+                <h2 class="">Layanan Kami</h2>
+                <p class="ringkasan">
+                    Apa aja sih fitur yang tersedia di JogjaWisata
                 </p>
-                <div class="tim">
-                    <div>
-                        <img src="assetlanding/tim1.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
-                    <div>
-                        <img src="assetlanding/tim2.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
-                    <div>
-                        <img src="assetlanding/tim3.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
+              </div>
+            <div class="layar-dalam support mt-4">
+                <div>
+                    <img src="assetlanding/earth.png"/>
+                    <h6>Rekomendasi Wisata</h6>
+                    <p class="mt-3">Terdapat beberapa tempat wisata yang sering menjadi tujuan utama bagi para wisatawan kami sediakan sebagai Top Rekomendasi Wisata   
+                    </p>
                 </div>
-
-                <div class="tim">
-                    <div>
-                        <img src="assetlanding/tim1.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
-                    <div>
-                        <img src="assetlanding/tim2.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
-                    <div>
-                        <img src="assetlanding/tim3.jpg"/>
-                        <h6>Ratnasari</h6>
-                        <span>Indonesia</span>
-                    </div>
+                <div>
+                    <img src="assetlanding//amenities.png"/>
+                    <h6>Transparasi Fasilitas</h6>
+                    <p class="mt-3">Beberapa fasilitas yang ada pada wisata tersebut juga kami tampilkan sebagai Transparasi Fasilitas   
+                    </p>
                 </div>
-
+                <div>
+                    <img src="assetlanding/tickets.png"/>
+                    <h6>Ticketing</h6>
+                    <p class="mt-3">Layanan E-Ticket juga kami sediakan sebagai alternatif bagi yang ingin booking dari jauh jauh hari secara Every Where
+                    </p>
+                </div>
             </div>
         </section>
+<!-- End Layanan -->
+
+
+<!-- Search -->
+      <section id="Search" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Kenapa Harus JogjaWisata</h2>
+              <p>Karena jangkauannya luas dan segala informasinya terpercaya </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Search -->
+
+<!-- Team -->
+<section class="team">
+  <div class="container">
+
+      <div class="section-title">
+          <h2>Our Team</h2>
+          <div class="underline"></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, velit!</p>
+      </div>
+
+      <div class="row">
+          <!--team  member 1-->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Member/Riski.jpg" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>RISKI NURHADI</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Member/Ratna.jpg" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>RATNASARI</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Member/Faras.jpg" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>FARRAS DAFFA Yr</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Fitur Rumah 1.png" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>AFWANI MANDIRI</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Fitur Rumah 1.png" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>ARYA DANANG</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                  <div class="teampic">
+                      <img src="Asset/img/Fitur Rumah 1.png" class="img-fluid" alt="team1">
+                  </div>
+                  <div class="member-info">
+                      <h4>RATNA</h4>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                      <p>deskripsi perorang</p>
+                  <div class="social">
+                      <a href=""> <i class="bi bi-facebook"></i> </a>
+                      <a href=""> <i class="bi bi-instagram"></i></a>
+                      <a href=""> <i class="bi bi-github"></i></a>
+                      <a href=""> <i class="bi bi-whatsapp"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+  
+          
+
+      </div>
+
+  </div> 
+
+</section>
+<!-- End Team -->
+
+
         <section class="abuabu" id="blog">
             <div class="layar-dalam">
                 <h3>Lastest Blog</h3>

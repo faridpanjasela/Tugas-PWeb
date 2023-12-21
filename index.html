@@ -13,6 +13,10 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,20 +60,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item mx-2">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="langding.html">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#Layanan">Layanan</a>
+              <a class="nav-link active" href="index.html">Rekomendasi</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Portofolio</a>
+              <a class="nav-link" href="slide.html">Portofolio</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
           <a href="langding.html">
-            <button class="button-primary">Call Me</button>
+            <button class="button-primary">Home</button>
           </a>
         </div>
       </div>
@@ -81,12 +85,13 @@
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-md-6 hero-tagline my-auto">
-            <h1>TEMUKAN TEMPAT LIBURAN TERBAIKMU</h1>
+            <h1>REKOMENDASI WISATA</h1>
             <p>
-              <span class="fw-bold">Jogja Wisata</span> hadir untuk membantu
-              kamu dalam menemukan tempat liburan terbaik sesuai keinginanmu
+              <span class="fw-bold">Yuk !! </span> lihat apa saja sih tempat tempat yang mejadi rekomendasi JogjaWisata yang banyak di kunjungi oleh Wisatawan 
             </p>
-            <button class="button-lg-primary">Selengkapnya</button>
+            <a class="btn btn-light" href="#Layanan" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+              Show More  <i class="bi bi-arrow-right-circle-fill"></i
+             ></a>
           </div>
         </div>
         <img
@@ -97,19 +102,83 @@
       </div>
     </section>
     <!-- End Hero -->
+
     <!-- Layanan Kami -->
     <section id="Layanan">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2>Layanan Kami</h2>
+            <h2>Rekomendasi</h2>
             <span class="Sub-title"
-              >Berikut adalah beberapa layanan dari kami</span
+              >Berikut adalah beberapa rekomendasi yang kami bagi berdasarkan Kabupaten nya</span
             >
           </div>
         </div>
 
-        <div class="row mt-4">
+        
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+            <div class="card-layanan mb-3">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="/Asset/img/Icon-propertybaru.png"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4 mb-3">Wisata Jogja Kota</h3>
+              <p class="mt-3">
+                Berikut Rekomendasi Wisata <br>Jogja Kota
+              </p>
+              <a class="btn btn-light btn-sm" href="#" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="/Asset/img/Icon-propertybaru.png"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4">Wisata Bantul</h3>
+              <p class="mt-3">
+                Berikut rekomendasi wisata <br>Bantul
+              </p>
+              <a class="btn btn-light btn-sm" href="Bantul.html" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
+            </div>
+          </div>
+          
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="/Asset/img/Icon-propertybaru.png"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4">Wisata Gunungkidul</h3>
+              <p class="mt-3">
+                Berikut Rekomendasi Wisata <br>Gunungkidul
+              </p>
+              <a class="btn btn-light btn-sm" href="#" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <div class="row mt-3">
           <div class="col-md-4 text-center">
             <div class="card-layanan mb-4">
               <div class="circle-icon position-relative mx-auto">
@@ -119,11 +188,13 @@
                   class="position-absolute top-50 start-50 translate-middle"
                 />
               </div>
-              <h3 class="mt-4 mb-3">Wisata 1</h3>
+              <h3 class="mt-4 mb-3">Wisata Seleman</h3>
               <p class="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium accusamus minus nesciunt dolorum.
+                Berikut Rekomendasi wisata <br> Seleman
               </p>
+              <a class="btn btn-light btn-sm" href="#" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
             </div>
           </div>
 
@@ -136,13 +207,16 @@
                   class="position-absolute top-50 start-50 translate-middle"
                 />
               </div>
-              <h3 class="mt-4">Wisata 2</h3>
+              <h3 class="mt-4">Wisata Kulon Progo</h3>
               <p class="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium accusamus minus nesciunt dolorum.
+               Berikut rekomendasi wisata <br> Kulon Progo
               </p>
+              <a class="btn btn-light btn-sm" href="#" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
             </div>
           </div>
+          
 
           <div class="col-md-4 text-center">
             <div class="card-layanan">
@@ -153,32 +227,21 @@
                   class="position-absolute top-50 start-50 translate-middle"
                 />
               </div>
-              <h3 class="mt-4">Wisata 3</h3>
+              <h3 class="mt-4">Wisata Magelang</h3>
               <p class="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium accusamus minus nesciunt dolorum.
+                Berikut Rekomendasi wisata <br>Magelang
               </p>
+              <a class="btn btn-light btn-sm" href="#" role="button" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); color: #1fa00e;">
+                Lihat Selengkapnya  <i class="bi bi-arrow-right-circle-fill"></i
+               ></a>
             </div>
           </div>
         </div>
+
       </div>
     </section>
     <!-- End Layanan -->
 
-    <!-- Search -->
-    <section id="Search" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Kenapa Harus JogjaWisata</h2>
-            <p>
-              Karena jangkauannya luas dan segala informasinya terpercaya
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Search -->
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
